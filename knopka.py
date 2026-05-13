@@ -445,7 +445,7 @@ def toggle():
         return jsonify({
             'status': button_status,
             'message': 'ON' if button_status else 'OFF'
-        })
+        }) 
 
 if __name__ == '__main__':
     print("\n" + "="*50)
